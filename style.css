@@ -1,2 +1,22 @@
+body{
+    font-family: Arial;
+}
 
+
+
+.logo_img{
+    vertical-align: middle;
+}
+
+
+.logo_txt{
+    font-size: 2rem;
+    color: black;
+    font-weight: 700;
+    vertical-align: middle;
+}
+
+#logo{
+    margin: 1%;
+}
 
