@@ -1,9 +1,11 @@
+/* #region Common */
 body{
     font-family: Arial;
 }
 
+/* #endregion Common */
 
-
+/* #region Header */
 .logo_img{
     vertical-align: middle;
 }
@@ -20,7 +22,12 @@ body{
     margin: 1%;
 }
 
+/* #endregion Header */
 
+/* #region Main */
+#app_main{
+    background-color: #f6f8f9;
+}
 
 .container{
     width: 65%;
@@ -31,16 +38,33 @@ body{
 }
 
 
-#app_main{
-    background-color: #f6f8f9;
+#action{
+    padding: 1%;
 }
 
 #add_task{
     margin-left: 2.5rem;
     margin-top: 0.5rem;
     margin-bottom: 0.25rem;
+    color: white;
+    background-color: #47adf1;
+    border-color: #47adf1;
+    border-style: double;
 }
 
-#action{
-    padding: 1%;
+#add_sec{
+    margin-top: 0.5rem;
+    margin-bottom: 0.25rem;
+    color: #e3e6e9;
+    background-color: white;
+    border-color: #e3e6e9;
+    border-style: double;
 }
+
+button{
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 12px;
+}
+
+/* #endregion Main */
