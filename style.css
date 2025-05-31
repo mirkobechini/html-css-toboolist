@@ -2,11 +2,11 @@
 body{
     font-family: Arial;
     background-color: #f6f8f9;
-    margin:0px;
+    margin:0rem;
 }
 
 .action{
-   width: 80%;
+    width: 80%;
     max-width: 600px;
     margin: 0 auto;
 }
@@ -32,6 +32,9 @@ body{
 
 #logo{
     padding: 1%;
+    width: 95%;
+    max-width: 800px;
+    margin: 0 auto;
 }
 
 /* #endregion Header */
@@ -43,7 +46,7 @@ body{
     width: 65%;
     max-width: 600px;
     margin: 0 auto;
-    margin-top: 50px;
+    margin-top: 2.5rem;
     background-color: white;
 }
 
@@ -69,7 +72,7 @@ body{
 
 button{
     border-radius: 5px;
-    padding: 5px;
+    padding: 0.25rem;
     font-size: 12px;
 }
 /* #endregion actions*/
