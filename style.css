@@ -1,6 +1,8 @@
 /* #region Common */
 body{
     font-family: Arial;
+    background-color: #f6f8f9;
+    margin:0px;
 }
 
 .action{
@@ -9,9 +11,13 @@ body{
     margin: 0 auto;
 }
 
+
 /* #endregion Common */
 
 /* #region Header */
+#app_header{
+    background-color: white;
+}
 .logo_img{
     vertical-align: middle;
 }
@@ -25,15 +31,13 @@ body{
 }
 
 #logo{
-    margin: 1%;
+    padding: 1%;
 }
 
 /* #endregion Header */
 
 /* #region Main */
-#app_main{
-    background-color: #f6f8f9;
-}
+
 
 .container{
     width: 65%;
