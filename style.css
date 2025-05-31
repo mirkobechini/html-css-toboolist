@@ -6,8 +6,8 @@ body {
 }
 
 .action {
-
-    max-width: 800px;
+    width: 90%;
+    max-width: 1000px;
     padding: 1.5% 10% 1%;
 }
 
@@ -34,7 +34,7 @@ body {
 #logo {
     padding: 1%;
     width: 95%;
-    max-width: 800px;
+    max-width: 2000px;
     margin: 0 auto;
 }
 
@@ -44,8 +44,8 @@ body {
 
 
 .container {
-    width: 65%;
-    max-width: 600px;
+    width: 80%;
+    max-width: 2000px;
     margin: 0 auto;
     margin-top: 2.5rem;
 }
@@ -147,7 +147,7 @@ button {
     color: white;
     background-color: black;
     border-radius: 20px;
-    padding: 1.5%;
+    padding: 7px;
 
 }
 
