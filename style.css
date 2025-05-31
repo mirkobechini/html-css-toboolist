@@ -86,23 +86,30 @@ button{
     margin-top: 0.25rem;
     padding-top: 5%;
     background-color: white;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
 }
 
 .category_name{
-    color: #4d515a;
+    color: #444851;
     span{
         font-size: 1.5rem;
     }
 
     h3{
         display: inline;
-       
     }
 }
 
 .status{
+    color: #67c1ab;
     border-radius: 100%;
-    color: green;
+    border: 1px solid #67c1ab;
+    padding: 0.5%;
+    font-size: 11px;
+    font-weight: bold;
+    vertical-align: middle;
+    
 }
 
 .task{
@@ -111,13 +118,20 @@ button{
     padding-bottom: 0.5rem;
 }
 
+.descr{
+    vertical-align: middle;
+    color: #464a53;
+    
+}
+
 .tag{
+    vertical-align: middle;
     font-size: 10px;
     color: white;
     background-color: black;
     border-radius: 20px;
     padding: 1.5%;
-    vertical-align: middle;
+    
 }
 
 #editorial{
