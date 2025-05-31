@@ -6,6 +6,8 @@ body {
 }
 
 .action {
+
+    max-width: 800px;
     padding: 1.5% 10% 1%;
 }
 
@@ -87,6 +89,7 @@ button {
 #alltask {
     margin-top: 0.25rem;
     padding-top: 5%;
+    padding-bottom: 5%;
     background-color: white;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
@@ -106,7 +109,6 @@ button {
 
 /* #region Status*/
 .status {
-
     border-radius: 100%;
     border: 1px solid;
     padding: 0.5%;
@@ -128,10 +130,12 @@ button {
     vertical-align: middle;
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
+    padding-left: 0.25rem;
 }
 
 .descr {
     vertical-align: middle;
+    padding-left: 1%;
     color: #464a53;
 
 }
@@ -176,3 +180,8 @@ button {
 
 
 /* #endregion Main */
+/* #region Footer */
+footer{
+    margin:1rem;
+}
+/* #endregion Footer */
