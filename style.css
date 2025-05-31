@@ -1,34 +1,35 @@
 /* #region Common */
-body{
+body {
     font-family: Arial;
     background-color: #f6f8f9;
-    margin:0rem;
+    margin: 0rem;
 }
 
-.action{
-    padding: 1.5% 10% 1% ;
+.action {
+    padding: 1.5% 10% 1%;
 }
 
 
 /* #endregion Common */
 
 /* #region Header */
-#app_header{
+#app_header {
     background-color: white;
 }
-.logo_img{
+
+.logo_img {
     vertical-align: middle;
 }
 
 
-.logo_txt{
+.logo_txt {
     font-size: 2rem;
     color: black;
     font-weight: 700;
     vertical-align: middle;
 }
 
-#logo{
+#logo {
     padding: 1%;
     width: 95%;
     max-width: 800px;
@@ -40,7 +41,7 @@ body{
 /* #region Main */
 
 
-.container{
+.container {
     width: 65%;
     max-width: 600px;
     margin: 0 auto;
@@ -49,13 +50,13 @@ body{
 
 
 /* #region actions*/
-#buttons_div{
+#buttons_div {
     background-color: white;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
 }
 
-#add_task{
+#add_task {
     margin-top: 0.5rem;
     margin-bottom: 0rem;
     color: white;
@@ -64,7 +65,7 @@ body{
     border-style: double;
 }
 
-#add_sec{
+#add_sec {
     margin-top: 0.5rem;
     margin-bottom: 0.25rem;
     color: #e3e6e9;
@@ -73,16 +74,17 @@ body{
     border-style: double;
 }
 
-button{
+button {
     border-radius: 5px;
     padding: 0.25rem;
     font-size: 12px;
 }
+
 /* #endregion actions*/
 
 /* #region tasks*/
 
-#alltask{
+#alltask {
     margin-top: 0.25rem;
     padding-top: 5%;
     background-color: white;
@@ -90,53 +92,85 @@ button{
     border-bottom-right-radius: 5px;
 }
 
-.category_name{
+.category_name {
     color: #444851;
-    span{
+
+    span {
         font-size: 1.5rem;
     }
 
-    h3{
+    h3 {
         display: inline;
     }
 }
 
-.status{
-    color: #67c1ab;
+/* #region Status*/
+.status {
+
     border-radius: 100%;
-    border: 1px solid #67c1ab;
+    border: 1px solid;
     padding: 0.5%;
     font-size: 11px;
-    font-weight: bold;
     vertical-align: middle;
-    
+
 }
 
-.task{
+.checked {
+    color: #67c1ab;
+}
+
+.unchecked {
+    color: #ed7872;
+}
+
+/* #endregion Status*/
+.task {
     vertical-align: middle;
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
 }
 
-.descr{
+.descr {
     vertical-align: middle;
     color: #464a53;
-    
+
 }
 
-.tag{
+/* #region Tag */
+.tag {
     vertical-align: middle;
     font-size: 10px;
     color: white;
     background-color: black;
     border-radius: 20px;
     padding: 1.5%;
-    
+
 }
 
-#editorial{
-    background-color:#45abe9;
+#editorial {
+    background-color: #45abe9;
 }
+
+#recruiting {
+    background-color: #64c0a9;
+}
+
+#q1_goals {
+    background-color: #9c72e4;
+}
+
+#mobile {
+    background-color: #f29e33;
+}
+
+#website {
+    background-color: #d863a0;
+}
+
+#sales {
+    background-color: #b0c926;
+}
+/* #endregion Tag */
 
 /* #endregion tasks*/
 
