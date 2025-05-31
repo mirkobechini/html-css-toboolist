@@ -96,6 +96,23 @@ button{
     color: green;
 }
 
+.task{
+    vertical-align: middle;
+    margin: 1rem;
+}
+
+.tag{
+    font-size: 10px;
+    color: white;
+    background-color: black;
+    border-radius: 20px;
+    padding: 1.5%;
+    vertical-align: middle;
+}
+
+#editorial{
+    background-color:#45abe9;
+}
 
 /* #endregion tasks*/
 
