@@ -3,6 +3,12 @@ body{
     font-family: Arial;
 }
 
+.action{
+   width: 80%;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
 /* #endregion Common */
 
 /* #region Header */
@@ -33,19 +39,15 @@ body{
     width: 65%;
     max-width: 600px;
     margin: 0 auto;
-    margin-top: 100px;
+    margin-top: 50px;
     background-color: white;
 }
 
 
-#action{
-    padding: 1%;
-}
-
+/* #region actions*/
 #add_task{
-    margin-left: 2.5rem;
     margin-top: 0.5rem;
-    margin-bottom: 0.25rem;
+    margin-bottom: 0rem;
     color: white;
     background-color: #47adf1;
     border-color: #47adf1;
@@ -66,5 +68,29 @@ button{
     padding: 5px;
     font-size: 12px;
 }
+/* #endregion actions*/
+
+/* #region tasks*/
+
+.category_name{
+    color: #4d515a;
+    span{
+        font-size: 1.5rem;
+    }
+
+    h3{
+        display: inline;
+       
+    }
+}
+
+.status{
+    border-radius: 100%;
+    color: green;
+}
+
+
+/* #endregion tasks*/
+
 
 /* #endregion Main */
