@@ -37,6 +37,9 @@ body {
     max-width: 2000px;
     margin: 0 auto;
 }
+h3{
+    margin: 0;
+}
 
 /* #endregion Header */
 
